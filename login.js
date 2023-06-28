@@ -18,7 +18,7 @@ function validateLogin(event) {
         document.getElementById("message").textContent = response.error.message;
       } else {
         // Redirect to a specific page
-        window.location.href = "main.html";
+        window.location.href = "index.html";
       }
     })
     .catch(error => {
