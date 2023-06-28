@@ -8,7 +8,7 @@ function checkAuthentication() {
   // Check if user is logged in using Netlify Identity
   if (!netlifyIdentity.currentUser()) {
     // User is not logged in, redirect to login page
-    window.location.href = "https://havokcorp.netlify.app/site-login/"; // Replace with the actual URL of your login page
+    window.location.href = "https://havok-corp.netlify.app/bejelentkezes/"; // Replace with the actual URL of your login page
   }
 }
 
