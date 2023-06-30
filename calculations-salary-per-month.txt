@@ -1,0 +1,28 @@
+______________________________________________________________________
+
+Standard
+----------
+3,99 / Hetente --> Vasárnap = 15.96 (Hónaponta)
+2x = 31.92 (Hónaponta)
+
+-- Végtelen mennyiségű filmkönyvtár
+
+______________________________________________________________________
+
+Basic
+----------
+4,99 / Hetente --> Vasárnap = 19.96 (Hónaponta)
+2x = 39.92 (Hónaponta)
+
+-- Végtelen mennyiségű film, sorozat -könyvtár
+
+______________________________________________________________________
+
+Premium
+----------
+5,99 / Hetente --> Vasárnap = 23.96 / Hónaponta
+[2x = 47.92 / Hónaponta]
+
+-- Végtelen mennyiségű film, sorozat -könyvtár
+
+______________________________________________________________________
