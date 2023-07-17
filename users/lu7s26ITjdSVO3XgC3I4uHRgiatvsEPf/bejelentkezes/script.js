@@ -21,7 +21,7 @@ function showPageContent() {
 
   // Create an iframe element
   var iframe = document.createElement("iframe");
-  iframe.src = "https://havok-corp.netlify.app/users/shared-central-site/basic/"; // Replace with the URL of your protected page
+  iframe.src = "https://havok-corp.netlify.app/users/shared-central-site/basic/index.html"; // Replace with the URL of your protected page
   iframe.className = "page-iframe";
   document.body.innerHTML = ""; // Clear the existing content
   document.body.appendChild(iframe);
@@ -31,8 +31,10 @@ function validateCredentials(email, password, callback) {
   // Perform the necessary logic to check the credentials
   // For example:
   if (email === "valid@example.com" && password === "password") {
+    isLoggedIn = true; // Set the login status to true
     callback(true); // Credentials are valid
   } else {
+    isLoggedIn = false; // Set the login status to true
     callback(false); // Credentials are invalid
   }
 }

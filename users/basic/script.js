@@ -3,19 +3,6 @@ const searchInput = document.getElementById("searchInput");
 const movies = document.querySelectorAll(".movie");
 const noResultsMessage = document.getElementById("noResultsMessage");
 
-// Function to check if the user is logged in
-function checkAuthentication() {
-  // Check if user is logged in using Netlify Identity
-  if (!netlifyIdentity.currentUser()) {
-    // User is not logged in, redirect to login page
-    window.location.href = "https://havok-corp.netlify.app/bejelentkezes/"; // Replace with the actual URL of your login page
-  }
-}
-
-// Execute the checkAuthentication function when the page loads
-document.addEventListener("DOMContentLoaded", function() {
-  checkAuthentication();
-});
 
 // Function to filter movies
 function filterMovies() {
