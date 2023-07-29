@@ -5,7 +5,7 @@ Standard
 3,99 / Hetente --> Vasárnap = 15.96 (Hónaponta)
 2x = 31.92 (Hónaponta)
 
--- Végtelen mennyiségű filmkönyvtár
+-- Összesen 150 film
 
 ______________________________________________________________________
 
@@ -14,7 +14,8 @@ Basic
 4,99 / Hetente --> Vasárnap = 19.96 (Hónaponta)
 2x = 39.92 (Hónaponta)
 
--- Végtelen mennyiségű film, sorozat -könyvtár
+-- Összesen 300 film, 150 sorozat
+-- Csak "Moziban vetített" filmkönyvtár
 
 ______________________________________________________________________
 
@@ -23,6 +24,7 @@ Premium
 5,99 / Hetente --> Vasárnap = 23.96 / Hónaponta
 [2x = 47.92 / Hónaponta]
 
--- Végtelen mennyiségű film, sorozat -könyvtár
+-- Végtelen mennyiségű film, sorozat
+-- Csak "Moziban vetített" filmkönyvtár
 
 ______________________________________________________________________
