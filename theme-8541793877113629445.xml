@@ -2253,6 +2253,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &lt;a href=&#39;#&#39;&
                                 </li>
                                 
                                 <!--[ Standar menu ]-->
+                                <li>
+                                  <!--[ Change attribute href='#' to add url ]-->
+                                  <a class='a' href='állapot' itemprop='url' onclick='window.location.href=&apos;https://xflix-inc-corp.netlify.app/users/status/&apos;; return false;'>
+                                    <!--[ Title navigation ]-->
+                                    <span class='n' itemprop='name'>Állapot</span>
+                                  </a>
+                                </li>
+                                
+                                <!--[ Standar menu ]-->
                                 <li style='display: none'>
                                   <!--[ Change attribute href='#' to add url ]-->
                                   <a class='a' href='#' itemprop='url'>
@@ -3518,8 +3527,8 @@ v
                         <b:section id='side-widget' showaddelement='true'>
                           <b:widget id='PopularPosts00' locked='false' title='Legnézettebb ezen héten' type='PopularPosts' version='2' visible='true'>
                             <b:widget-settings>
-                              <b:widget-setting name='numItemsToShow'>5</b:widget-setting>
-                              <b:widget-setting name='showThumbnails'>true</b:widget-setting>
+                              <b:widget-setting name='numItemsToShow'>3</b:widget-setting>
+                              <b:widget-setting name='showThumbnails'>false</b:widget-setting>
                               <b:widget-setting name='showSnippets'>false</b:widget-setting>
                               <b:widget-setting name='timeRange'>LAST_WEEK</b:widget-setting>
                             </b:widget-settings>
