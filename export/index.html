@@ -5,27 +5,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Dashboard - Brand</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
-    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="../assets/css/Pricing-Clean-badges.css">
-    <link rel="stylesheet" href="../assets/css/Pricing-Clean-icons.css">
-    <link rel="stylesheet" href="../assets/css/Projects-Grid-images.css">
+    <link rel="stylesheet" href="assets/css/Pricing-Clean-badges.css">
+    <link rel="stylesheet" href="assets/css/Pricing-Clean-icons.css">
+    <link rel="stylesheet" href="assets/css/Projects-Grid-images.css">
 </head>
 
 <body id="page-top">
     <div id="wrapper">
-        <nav class="navbar navbar-light align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0" style="box-shadow: 0px 3px 10px 0px;">
+        <nav class="navbar navbar-light align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0" style="box-shadow: 0px 3px 10px 0px;background: #4e73df;">
             <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
                     <div class="sidebar-brand-icon rotate-n-15"><i class="icon ion-planet"></i></div>
                     <div class="sidebar-brand-text mx-3"><span>GALAXY</span></div>
                 </a>
                 <hr class="sidebar-divider my-0">
                 <ul class="navbar-nav text-light" id="accordionSidebar">
-                    <li class="nav-item"><a class="nav-link" href="../index.html" style="color: white;"><i class="fas fa-home"></i><span>&nbsp;Kezdőlap</span></a><a class="nav-link" href="../index.html" style="color: white;" data-bs-target="#modal-2" data-bs-toggle="modal"><i class="far fa-credit-card"></i><span>&nbsp;Szolgáltatások</span>
+                    <li class="nav-item"><a class="nav-link active" href="index.html" style="background: #32498b;"><i class="fas fa-home"></i><span>&nbsp;Kezdőlap</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="../index.html" style="color: white;" data-bs-target="#modal-2" data-bs-toggle="modal"><i class="far fa-credit-card"></i><span>&nbsp;Szolgáltatások</span>
                             <div class="modal fade" role="dialog" tabindex="-1" id="modal-2">
                                 <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
                                     <div class="modal-content">
@@ -39,8 +40,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </a><a class="nav-link" href="../index.html" style="background: #32498b;font-weight: bold;"><i class="fas fa-play-circle" style="color: white;"></i><span>&nbsp;GALAXY FILMEK</span></a></li>
-                    <li class="nav-item"></li>
+                        </a></li>
                 </ul>
                 <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button" style="background: rgb(58,59,69);"></button></div>
             </div>
@@ -54,20 +54,29 @@
                 </nav>
                 <div class="container-fluid">
                     <div class="d-sm-flex justify-content-between align-items-center mb-4">
-                        <h3 class="text-dark mb-0">GALAXY FILMEK</h3>
+                        <h3 class="text-dark mb-0">Kezdőlap</h3>
                     </div>
                     <div class="row"></div>
                     <div class="row">
                         <div class="col-lg-6 mb-4">
-                            <div class="card shadow mb-4" style="min-width: 552px;width: 1100px;">
+                            <div class="card shadow mb-4">
                                 <div class="card-header d-flex justify-content-between align-items-center">
-                                    <h6 class="fw-bolder text-primary fw-bold m-0">Filmtár</h6>
+                                    <h6 class="text-primary fw-bold m-0">Szolgáltatások</h6>
                                 </div>
                                 <div class="card-body">
-                                    <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3" style="color: #3a3b45;">
-                                        <div class="col">
-                                            <div class="ratio ratio-16x9" style="width: 910px;border-radius: 6px;border: 1px solid var(--bs-primary);"><iframe src="http://192.168.1.81:8096/" allowfullscreen=""></iframe></div>
-                                        </div>
+                                    <div class="table-responsive" style="border-radius: 6px;">
+                                        <table class="table table-striped">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-center" style="padding-top: 20px;padding-left: 15px;padding-bottom: 20px;color: rgb(58,59,69);font-weight: bold;">GALAXY FILMEK<i class="fas fa-play-circle" style="padding-left: 7.5px;"></i></td>
+                                                    <td style="padding-top: 20px;padding-left: 15px;padding-bottom: 20px;color: rgb(58,59,69);"><a class="btn btn-primary btn-sm d-none d-sm-inline-block mx-auto" role="button" href="galaxylibrary/index.html"><i class="fas fa-sign-in-alt fa-sm text-white-50"></i>&nbsp; GALAXY FILMEK megnyitása</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center" style="padding-top: 20px;padding-left: 15px;padding-bottom: 20px;color: rgb(58,59,69);font-weight: bold;">GALAXY FOTÓK<i class="fas fa-images" style="padding-left: 7.5px;"></i></td>
+                                                    <td style="padding-top: 20px;padding-left: 15px;padding-bottom: 20px;color: rgb(58,59,69);"><a class="btn btn-primary btn-sm disabled d-none d-sm-inline-block" role="button" href="#"><i class="fas fa-sign-in-alt fa-sm text-white-50"></i>&nbsp; GALAXY FOTÓK megnyitása</a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
@@ -83,7 +92,7 @@
         </div><a class="border rounded d-inline scroll-to-top" href="#page-top" style="background: rgb(16,136,93);"><i class="fas fa-angle-up"></i></a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../assets/js/theme.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
 
 </html>
