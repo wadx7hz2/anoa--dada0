@@ -1,0 +1,16 @@
+= 1.0.4 =
+* Dark mode styling issue fixed.
+
+= 1.0.3 =
+* Added enable/disable background animation option.
+* Breadcrumb dark mode issue fixed.
+* Added background color in sidebar widget on dark mode.
+
+= 1.0.2 =
+* Dark mode color issue fixed.
+
+= 1.0.1 =
+* Keyboard navigation in mobile menu fixed.
+
+= 1.0.0 =
+* Initial release 🚀
